@@ -1,0 +1,316 @@
+<%-include("partial/header")-%>
+
+      <section id="game">
+
+       <div class="container">
+           
+            <div class="row titleOfGame" >
+                  <div class="col-4">score</div>
+                  <div class="col-4"> <p class="showChar font-1-5-styles"></p></div>
+                  <div class="col-4">mode</div>
+
+            </div>
+            
+             <div class="row">
+                   <div class="col-lg-2" id="wordsToFind">
+                   
+                   
+                   
+                    
+                    <table class="table table-bordered">
+                      <% for(var i=0; i<10; i++){  %>
+                      <tr>
+                      
+                      
+
+                          <td class="animalsName font-1-5-styles" id="<%=animalsName1[i]%>" > <%=animalsName1[i]%>  </td>
+                          
+                        
+                      
+
+                    </tr>
+                    <%}%>
+                   </table>
+
+                   </div>
+                  <div class="col-lg-8" style="text-align:center;">
+                                      
+                  <div class="game-div">
+
+
+                    <table class="table table-bordered">
+                      <tr>
+                       
+                         <td class="animalsLetter" id="a0">C</td>
+                         <td class="animalsLetter" id="a1">A</td>
+
+                         <td class="animalsLetter" id="a2">M</td>
+
+                         <td class="animalsLetter" id="a3">E</td>
+
+                         <td class="animalsLetter" id="a4">L</td>
+
+                         <td class="animalsLetter" id="a5">T</td>
+
+                         <td class="animalsLetter" id="a6">E</td>
+
+                         <td class="animalsLetter" id="a7">Y</td>
+
+                         <td class="animalsLetter" id="a8">D</td>
+                         <td class="animalsLetter" id="a9">E</td>
+
+
+                        
+
+                      </tr>
+                      <tr>
+                       
+                        <td class="animalsLetter" id="a10">N</td>
+                        <td class="animalsLetter" id="a11">O</td>
+
+                        <td class="animalsLetter" id="a12">T</td>
+
+                        <td class="animalsLetter" id="a13">R</td>
+
+                        <td class="animalsLetter" id="a14">L</td>
+
+                        <td class="animalsLetter" id="a15">M</td>
+
+                        <td class="animalsLetter" id="a16">L</td>
+
+                        <td class="animalsLetter" id="a17">W</td>
+
+                        <td class="animalsLetter" id="a18">R</td>
+                        <td class="animalsLetter" id="a19">L</td>
+
+
+                       
+
+                     </tr>
+                     <tr>
+                       
+                        <td class="animalsLetter" id="a20">Y</td>
+                        <td class="animalsLetter" id="a21">E</td>
+
+                        <td class="animalsLetter" id="a22">K</td>
+
+                        <td class="animalsLetter" id="a23">N</td>
+
+                        <td class="animalsLetter" id="a24">O</td>
+
+                        <td class="animalsLetter" id="a25">D</td>
+
+                        <td class="animalsLetter" id="a26">E</td>
+
+                        <td class="animalsLetter" id="a27">M</td>
+
+                        <td class="animalsLetter" id="a28">A</td>
+                        <td class="animalsLetter" id="a29">B</td>
+
+
+                       
+
+                     </tr>
+                     
+                     <tr>
+                       
+                        <td class="animalsLetter" id="a30">B</td>
+                        <td class="animalsLetter" id="a31">A</td>
+
+                        <td class="animalsLetter" id="a32">I</td>
+
+                        <td class="animalsLetter" id="a33">E</td>
+
+                        <td class="animalsLetter" id="a34">L</td>
+
+                        <td class="animalsLetter" id="a35">T</td>
+
+                        <td class="animalsLetter" id="a36">P</td>
+
+                        <td class="animalsLetter" id="a37">C</td>
+
+                        <td class="animalsLetter" id="a38">P</td>
+                        <td class="animalsLetter" id="a39">E</td>
+
+
+                       
+
+                     </tr>
+                     
+                     <tr>
+                       
+                        <td class="animalsLetter" id="a40">F</td>
+                        <td class="animalsLetter" id="a41">A</td>
+
+                        <td class="animalsLetter" id="a42">T</td>
+
+                        <td class="animalsLetter" id="a43">C</td>
+
+                        <td class="animalsLetter" id="a44">O</td>
+
+                        <td class="animalsLetter" id="a45">W</td>
+
+                        <td class="animalsLetter" id="a46">H</td>
+
+                        <td class="animalsLetter" id="a47">R</td>
+
+                        <td class="animalsLetter" id="a48">O</td>
+                        <td class="animalsLetter" id="a49">A</td>
+
+
+                       
+
+                     </tr>
+                     
+                     <tr>
+                       
+                        <td class="animalsLetter" id="a50">F</td>
+                        <td class="animalsLetter" id="a51">R</td>
+
+                        <td class="animalsLetter" id="a52">S</td>
+
+                        <td class="animalsLetter" id="a53">R</td>
+
+                        <td class="animalsLetter" id="a54">E</td>
+
+                        <td class="animalsLetter" id="a55">M</td>
+
+                        <td class="animalsLetter" id="a56">A</td>
+
+                        <td class="animalsLetter" id="a57">E</td>
+
+                        <td class="animalsLetter" id="a58">E</td>
+                        <td class="animalsLetter" id="a59">R</td>
+
+
+                       
+
+                     </tr>
+                     
+
+                     <tr>
+                       
+                        <td class="animalsLetter" id="a60">L</td>
+                        <td class="animalsLetter" id="a61">E</td>
+
+                        <td class="animalsLetter" id="a62">R</td>
+
+                        <td class="animalsLetter" id="a63">E</td>
+
+                        <td class="animalsLetter" id="a64">C</td>
+
+                        <td class="animalsLetter" id="a65">O</td>
+
+                        <td class="animalsLetter" id="a66">N</td>
+
+                        <td class="animalsLetter" id="a67">A</td>
+
+                        <td class="animalsLetter" id="a68">L</td>
+                        <td class="animalsLetter" id="a69">B</td>
+
+
+                       
+
+                     </tr>
+                     
+                     <tr>
+                       
+                        <td class="animalsLetter" id="a70">M</td>
+                        <td class="animalsLetter" id="a71">G</td>
+
+                        <td class="animalsLetter" id="a72">G</td>
+
+                        <td class="animalsLetter" id="a73">E</td>
+
+                        <td class="animalsLetter" id="a74">K</td>
+
+                        <td class="animalsLetter" id="a75">N</td>
+
+                        <td class="animalsLetter" id="a76">T</td>
+
+                        <td class="animalsLetter" id="a77">B</td>
+
+                        <td class="animalsLetter" id="a78">G</td>
+                        <td class="animalsLetter" id="a79">L</td>
+
+
+                       
+
+                     </tr>
+                     <tr>
+                       
+                        <td class="animalsLetter" id="a80">O</td>
+                        <td class="animalsLetter" id="a81">I</td>
+
+                        <td class="animalsLetter" id="a82">E</td>
+
+                        <td class="animalsLetter" id="a83">D</td>
+
+                        <td class="animalsLetter" id="a84">L</td>
+
+                        <td class="animalsLetter" id="a85">K</td>
+
+                        <td class="animalsLetter" id="a86">L</td>
+
+                        <td class="animalsLetter" id="a87">I</td>
+
+                        <td class="animalsLetter" id="a88">O</td>
+                        <td class="animalsLetter" id="a89">N</td>
+
+
+                       
+
+                     </tr>
+                     
+                     <tr>
+                       
+                        <td class="animalsLetter" id="a90">E</td>
+                        <td class="animalsLetter" id="a91">T</td>
+
+                        <td class="animalsLetter" id="a92">Y</td>
+
+                        <td class="animalsLetter" id="a93">O</td>
+
+                        <td class="animalsLetter" id="a94">L</td>
+
+                        <td class="animalsLetter" id="a95">A</td>
+
+                        <td class="animalsLetter" id="a96">F</td>
+
+                        <td class="animalsLetter" id="a97">F</td>
+
+                        <td class="animalsLetter" id="a98">U</td>
+                        <td class="animalsLetter" id="a99">B</td>
+
+
+                       
+
+                     </tr>
+                     
+                     
+                     
+
+                    </table>
+                  </div>
+
+                  
+                  </div>
+                   <div class="col-lg-2"></div>
+
+           
+
+             </div>
+         
+       </div>
+
+
+      </section>
+
+
+   
+     <script type="text/javascript" src="index.js">
+
+     </script>
+<%-include("partial/footer")-%>
+
+

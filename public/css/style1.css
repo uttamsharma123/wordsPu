@@ -1,0 +1,19 @@
+
+.titleOfGame{
+  padding:3%;
+}
+.font-1-5-styles{
+  color:#035aa6;
+  font-size:1.5rem;
+  font-weight: bold;
+  font-family: 'Work Sans', sans-serif;
+}
+.animalsLetter{
+  font-siZe:1.5rem;
+  color:black;
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight:bold;
+}
+.animalsName{
+  text-align: center;
+}
